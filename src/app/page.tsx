@@ -126,12 +126,11 @@ export default function Home() {
                 whiteSpace: "pre-line",
               }}
               sequence={[
-                `< The messy forest, the wired smells, every hunt is a contest of vision and wisdom. In every hunter's\nbackpack, there is a map with no symbols, and where to go is all depends on his nose. In each hunt,\nhunters accumulate their skills and power, s nose. In each hunt, hunters accumulate their skills and\npower,and compete for their glory… T`,
+                "< The messy forest, the wired smells, every hunt is a contest of vision and wisdom. In every hunter's backpack, there is a map with no symbols, and where to go is all depends on his nose. In each hunt,\nhunters accumulate their skills and power, s nose. In each hunt, hunters accumulate their skills and power,and compete for their glory… T",
                 500,
                 "",
               ]}
-              repeat={Infinity}
-              omitDeletionAnimation
+              repeat={1}
             />
           </div>
           <div className="mt-[50px] flex flex-col gap-[30px] w-screen max-[425px]:hidden">
