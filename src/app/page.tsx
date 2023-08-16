@@ -130,7 +130,8 @@ export default function Home() {
                 500,
                 "",
               ]}
-              repeat={1}
+              repeat={Infinity}
+              omitDeletionAnimation
             />
           </div>
           <div className="mt-[50px] flex flex-col gap-[30px] w-screen max-[425px]:hidden">
