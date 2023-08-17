@@ -48,7 +48,7 @@ export default function Home() {
             </div>
             <div className=""></div>
             <div className=""></div>
-            <div className="text-white">
+            <div className="text-white -mt-[30px]">
               <div className="uppercase font-bebaseNeue flex flex-col gap-[10px] max-[425px]:ml-[54px]">
                 <motion.div
                   className="flex gap-[15px]"
@@ -134,7 +134,7 @@ export default function Home() {
               omitDeletionAnimation
             />
           </div>
-          <div className="mt-[50px] flex flex-col gap-[30px] w-screen max-[425px]:hidden">
+          <div className="mt-[50px] flex flex-col gap-[30px] w-screen max-[425px]:hidden font-shareTech">
             <div className="flex items-center justify-center gap-[30px]">
               <Tooltip>
                 <TooltipTrigger>
@@ -164,7 +164,7 @@ export default function Home() {
                   <a
                     href="https://www.lofi.buzz"
                     target="_blank"
-                    className="bg-[#ED1B24] px-4 text-white w-[60px] h-5 text-sm leading-4 font-shareTech"
+                    className="bg-[#ED1B24] px-4 text-white w-[60px] h-5 text-sm leading-4"
                   >
                     Detail {">"}
                   </a>
@@ -368,7 +368,7 @@ export default function Home() {
               </Tooltip>
             </div>
           </div>
-          <div className="mt-[50px] flex-col gap-[15px] w-screen hidden max-[425px]:flex pb-10">
+          <div className="mt-[50px] flex-col gap-[15px] w-screen hidden max-[425px]:flex pb-10 font-shareTech">
             <div className="flex items-center justify-center gap-[25px]">
               <Popover>
                 <PopoverTrigger>
