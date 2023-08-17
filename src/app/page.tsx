@@ -366,6 +366,32 @@ export default function Home() {
                   </a>
                 </TooltipContent>
               </Tooltip>
+              <Tooltip>
+                <TooltipTrigger>
+                  <div className="flex flex-col items-center gap-3 group relative">
+                    <div className="bg-cover bg-[url('/border.png')] group-hover:bg-[url('/border-active.png')] w-[100px] h-[115px] flex items-center justify-center">
+                      <Image
+                        src="/defi.png"
+                        width={45}
+                        height={45}
+                        alt="defi"
+                      />
+                    </div>
+                    <div className="text-white group-hover:text-[#ED1B24]">
+                      De.Fi
+                    </div>
+                  </div>
+                </TooltipTrigger>
+                <TooltipContent side="bottom">
+                  <a
+                    href="https://de.fi"
+                    target="_blank"
+                    className="bg-[#ED1B24] px-4 text-white w-[60px] h-5 text-sm leading-4 font-shareTech"
+                  >
+                    Detail {">"}
+                  </a>
+                </TooltipContent>
+              </Tooltip>
             </div>
           </div>
           <div className="mt-[50px] flex-col gap-[15px] w-screen hidden max-[425px]:flex pb-10 font-shareTech">
@@ -547,6 +573,32 @@ export default function Home() {
                 <PopoverContent side="bottom">
                   <a
                     href="https://testjarlabs.com"
+                    target="_blank"
+                    className="bg-[#ED1B24] px-4 text-white w-[60px] h-5 text-sm leading-4 font-shareTech"
+                  >
+                    Detail {">"}
+                  </a>
+                </PopoverContent>
+              </Popover>
+              <Popover>
+                <PopoverTrigger>
+                  <div className="flex flex-col items-center gap-3 group relative">
+                    <div className="bg-cover bg-[url('/border.png')] group-hover:bg-[url('/border-active.png')] w-[74px] h-[86px] flex items-center justify-center">
+                      <Image
+                        src="/defi.png"
+                        width={40}
+                        height={40}
+                        alt="De.Fi"
+                      />
+                    </div>
+                    <div className="uppercase text-white group-hover:text-[#ED1B24]">
+                      De.Fi
+                    </div>
+                  </div>
+                </PopoverTrigger>
+                <PopoverContent side="bottom">
+                  <a
+                    href="https://de.fi"
                     target="_blank"
                     className="bg-[#ED1B24] px-4 text-white w-[60px] h-5 text-sm leading-4 font-shareTech"
                   >
