@@ -48,7 +48,7 @@ export default function Home() {
             </div>
             <div className=""></div>
             <div className=""></div>
-            <div className="text-white -mt-[142px] max-[425px]:mt-0">
+            <div className="text-white -mt-[192px] max-[425px]:mt-0">
               <div className="uppercase font-bebaseNeue flex flex-col gap-[10px] max-[425px]:ml-[54px]">
                 <motion.div
                   className="flex gap-[15px]"
@@ -138,7 +138,11 @@ export default function Home() {
             <div className="flex items-center justify-center gap-[30px]">
               <Tooltip>
                 <TooltipTrigger>
-                  <div className="flex flex-col items-center gap-3 group relative">
+                  <a
+                    href="https://www.lofi.buzz"
+                    target="_blank"
+                    className="flex flex-col items-center gap-3 group relative"
+                  >
                     <div className="bg-cover bg-[url('/border.png')] group-hover:bg-[url('/border-active.png')] w-[100px] h-[115px] flex items-center justify-center">
                       <Image
                         src="/LOFI.png"
@@ -158,7 +162,7 @@ export default function Home() {
                     <div className="uppercase text-white group-hover:text-[#ED1B24]">
                       LOFI
                     </div>
-                  </div>
+                  </a>
                 </TooltipTrigger>
                 <TooltipContent side="bottom">
                   <a
