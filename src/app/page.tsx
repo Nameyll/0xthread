@@ -39,7 +39,7 @@ export default function Home() {
                 }}
                 sequence={[
                   `join_us = input("Would you like to join 0xthread ventures?\n(yes/no)")\nif join_us == “yes":\nprint("Welcome to 0xthread ventures! We are committed to\nproviding various support\nand helping you succeed.")\nindustry = “Tech, Fintech and Web3"\nmission = "Trusted partner and advisor"\nservices = "Expert guidance and resources"\nprint(f"We are dedicated to supporting entrepreneurs and\nbusinesses in the {industry}\nindustry.")`,
-                  200,
+                  5000,
                   "",
                 ]}
                 repeat={Infinity}
@@ -48,7 +48,7 @@ export default function Home() {
             </div>
             <div className=""></div>
             <div className=""></div>
-            <div className="text-white -mt-[60px]">
+            <div className="text-white -mt-[120px]">
               <div className="uppercase font-bebaseNeue flex flex-col gap-[10px] max-[425px]:ml-[54px]">
                 <motion.div
                   className="flex gap-[15px]"
@@ -57,7 +57,7 @@ export default function Home() {
                   exit={{ opacity: 0 }}
                 >
                   <div>{"</>"}</div>
-                  <div className="text-[160px] leading-[120px] tracking-[5px] max-[425px]:text-[86px] max-[425px]:leading-[65px] max-[425px]:tracking-[2px]">
+                  <div className="text-[200px] leading-[165px] tracking-[5px] max-[425px]:text-[86px] max-[425px]:leading-[65px] max-[425px]:tracking-[2px]">
                     Keep
                   </div>
                 </motion.div>
@@ -69,7 +69,7 @@ export default function Home() {
                   transition={{ delay: 0.5 }}
                 >
                   <div>{"</>"}</div>
-                  <div className="text-[160px] leading-[120px] tracking-[5px] max-[425px]:text-[86px] max-[425px]:leading-[65px] max-[425px]:tracking-[2px]">
+                  <div className="text-[200px] leading-[165px] tracking-[5px] max-[425px]:text-[86px] max-[425px]:leading-[65px] max-[425px]:tracking-[2px]">
                     Project
                   </div>
                 </motion.div>
@@ -81,7 +81,7 @@ export default function Home() {
                   transition={{ delay: 1 }}
                 >
                   <div>{"</>"}</div>
-                  <div className="text-[160px] leading-[120px] tracking-[5px] max-[425px]:text-[86px] max-[425px]:leading-[65px] max-[425px]:tracking-[2px]">
+                  <div className="text-[200px] leading-[165px] tracking-[5px] max-[425px]:text-[86px] max-[425px]:leading-[65px] max-[425px]:tracking-[2px]">
                     Reimagine
                   </div>
                 </motion.div>
@@ -92,7 +92,7 @@ export default function Home() {
         <button
           type="button"
           onClick={() => scrollToAnchor("#project")}
-          className="uppercase animate-bounce absolute bottom-[100px] left-[60px] text-white flex items-center gap-[10px] text-sm font-normal max-[425px]:bottom-0 max-[425px]:left-1/2 max-[425px]:-ml-[30px] max-[425px]:mb-4"
+          className="uppercase animate-bounce absolute bottom-[100px] left-[60px] text-white flex items-center gap-[10px] text-sm font-shareTech font-normal max-[425px]:bottom-0 max-[425px]:left-1/2 max-[425px]:-ml-[30px] max-[425px]:mb-4"
         >
           Scroll
           <svg
@@ -127,7 +127,7 @@ export default function Home() {
               }}
               sequence={[
                 "< The messy forest, the wired smells, every hunt is a contest of vision and wisdom. In every hunter's backpack, there is a map with no symbols, and where to go is all depends on his nose. In each hunt, hunters accumulate their skills and power, s nose. In each hunt, hunters accumulate their skills and power,and compete for their glory… T",
-                500,
+                5000,
                 "",
               ]}
               repeat={Infinity}
@@ -658,7 +658,7 @@ export default function Home() {
                 }}
                 sequence={[
                   `//: he messy forest, the wired smells, ee messy\nforest, the wired smell`,
-                  500,
+                  5000,
                   "",
                 ]}
                 repeat={Infinity}

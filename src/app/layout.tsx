@@ -35,7 +35,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       suppressHydrationWarning
     >
       <body className="w-full h-screen">
-        <TooltipProvider>{children}</TooltipProvider>
+        <TooltipProvider delayDuration={200}>{children}</TooltipProvider>
       </body>
     </html>
   );
