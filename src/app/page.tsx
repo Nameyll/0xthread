@@ -711,7 +711,7 @@ export default function Home() {
                 Email: Oxthread@Hotmai.com
               </a>
             </div>
-            <div>© 2023 YUGA LABS INC.</div>
+            <div>© 2023 Oxthread.Inc</div>
           </div>
         </div>
         <div className="h-full text-sm leading-4 font-normal font-shareTech border-l border-l-[#333] p-[30px] flex flex-col justify-between w-[380px] max-[425px]:hidden">
@@ -722,7 +722,9 @@ export default function Home() {
 
           <div className="flex flex-col gap-[10px]">
             <div className="text-[#999] ">CONTACT US AT</div>
-            <a href="mailto:Oxthread@Hotmai.com">Email: Oxthread@Hotmai.com</a>
+            <a href="mailto:Tyler@Oxthread.ventures">
+              Email: Tyler@Oxthread.ventures
+            </a>
           </div>
         </div>
       </div>
