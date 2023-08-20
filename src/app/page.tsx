@@ -172,7 +172,11 @@ export default function Home() {
               </Tooltip>
               <Tooltip>
                 <TooltipTrigger>
-                  <div className="flex flex-col items-center gap-3 group relative">
+                  <a
+                    target="_blank"
+                    href="https://kiki.finance"
+                    className="flex flex-col items-center gap-3 group relative"
+                  >
                     <div className="bg-cover bg-[url('/border.png')] group-hover:bg-[url('/border-active.png')] w-[100px] h-[115px] flex items-center justify-center">
                       <Image
                         src="/KiKi-Finance.png"
@@ -192,7 +196,7 @@ export default function Home() {
                     <div className="text-white group-hover:text-[#ED1B24]">
                       KiKiFinance
                     </div>
-                  </div>
+                  </a>
                 </TooltipTrigger>
                 <TooltipContent side="bottom">
                   <a
@@ -206,7 +210,11 @@ export default function Home() {
               </Tooltip>
               <Tooltip>
                 <TooltipTrigger>
-                  <div className="flex flex-col items-center gap-3 group relative">
+                  <a
+                    href="https://double.one"
+                    target="_blank"
+                    className="flex flex-col items-center gap-3 group relative"
+                  >
                     <div className="bg-cover bg-[url('/border.png')] group-hover:bg-[url('/border-active.png')] w-[100px] h-[115px] flex items-center justify-center">
                       <Image
                         src="/Double.png"
@@ -226,7 +234,7 @@ export default function Home() {
                     <div className="uppercase text-white group-hover:text-[#ED1B24]">
                       Double
                     </div>
-                  </div>
+                  </a>
                 </TooltipTrigger>
                 <TooltipContent side="bottom">
                   <a
@@ -240,7 +248,11 @@ export default function Home() {
               </Tooltip>
               <Tooltip>
                 <TooltipTrigger>
-                  <div className="flex flex-col items-center gap-3 group relative">
+                  <a
+                    href="https://bitmetis.io"
+                    target="_blank"
+                    className="flex flex-col items-center gap-3 group relative"
+                  >
                     <div className="bg-cover bg-[url('/border.png')] group-hover:bg-[url('/border-active.png')] w-[100px] h-[115px] flex items-center justify-center">
                       <Image
                         src="/Bitmetis.png"
@@ -260,7 +272,7 @@ export default function Home() {
                     <div className="uppercase text-white group-hover:text-[#ED1B24]">
                       Bitmetis
                     </div>
-                  </div>
+                  </a>
                 </TooltipTrigger>
                 <TooltipContent side="bottom">
                   <a
@@ -274,7 +286,11 @@ export default function Home() {
               </Tooltip>
               <Tooltip>
                 <TooltipTrigger>
-                  <div className="flex flex-col items-center gap-3 group relative">
+                  <a
+                    href="https://twitterscan.com"
+                    target="_blank"
+                    className="flex flex-col items-center gap-3 group relative"
+                  >
                     <div className="bg-cover bg-[url('/border.png')] group-hover:bg-[url('/border-active.png')] w-[100px] h-[115px] flex items-center justify-center">
                       <Image
                         src="/TwitterScan.png"
@@ -294,7 +310,7 @@ export default function Home() {
                     <div className="text-white group-hover:text-[#ED1B24]">
                       TwitterScan
                     </div>
-                  </div>
+                  </a>
                 </TooltipTrigger>
                 <TooltipContent side="bottom">
                   <a
@@ -308,7 +324,11 @@ export default function Home() {
               </Tooltip>
               <Tooltip>
                 <TooltipTrigger>
-                  <div className="flex flex-col items-center gap-3 group relative">
+                  <a
+                    href="https://aynthinng.world"
+                    target="_blank"
+                    className="flex flex-col items-center gap-3 group relative"
+                  >
                     <div className="bg-cover bg-[url('/border.png')] group-hover:bg-[url('/border-active.png')] w-[100px] h-[115px] flex items-center justify-center">
                       <Image
                         src="/Anything.png"
@@ -328,7 +348,7 @@ export default function Home() {
                     <div className="uppercase text-white group-hover:text-[#ED1B24]">
                       Anything
                     </div>
-                  </div>
+                  </a>
                 </TooltipTrigger>
                 <TooltipContent side="bottom">
                   <a
@@ -342,7 +362,11 @@ export default function Home() {
               </Tooltip>
               <Tooltip>
                 <TooltipTrigger>
-                  <div className="flex flex-col items-center gap-3 group relative">
+                  <a
+                    href="https://testjarlabs.com"
+                    target="_blank"
+                    className="flex flex-col items-center gap-3 group relative"
+                  >
                     <div className="bg-cover bg-[url('/border.png')] group-hover:bg-[url('/border-active.png')] w-[100px] h-[115px] flex items-center justify-center">
                       <Image
                         src="/TestJarLabs.png"
@@ -351,10 +375,18 @@ export default function Home() {
                         alt="project 1"
                       />
                     </div>
+                    <div className="absolute z-20 top-10 -right-8">
+                      <Image
+                        src="/line1.png"
+                        width={33}
+                        height={35}
+                        alt="line"
+                      />
+                    </div>
                     <div className="text-white group-hover:text-[#ED1B24]">
                       TestJarLabs
                     </div>
-                  </div>
+                  </a>
                 </TooltipTrigger>
                 <TooltipContent side="bottom">
                   <a
@@ -368,7 +400,11 @@ export default function Home() {
               </Tooltip>
               <Tooltip>
                 <TooltipTrigger>
-                  <div className="flex flex-col items-center gap-3 group relative">
+                  <a
+                    href="https://de.fi"
+                    target="_blank"
+                    className="flex flex-col items-center gap-3 group relative"
+                  >
                     <div className="bg-cover bg-[url('/border.png')] group-hover:bg-[url('/border-active.png')] w-[100px] h-[115px] flex items-center justify-center">
                       <Image
                         src="/defi.png"
@@ -380,7 +416,7 @@ export default function Home() {
                     <div className="text-white group-hover:text-[#ED1B24]">
                       De.Fi
                     </div>
-                  </div>
+                  </a>
                 </TooltipTrigger>
                 <TooltipContent side="bottom">
                   <a
