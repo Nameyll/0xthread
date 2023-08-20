@@ -48,7 +48,7 @@ export default function Home() {
             </div>
             <div className=""></div>
             <div className=""></div>
-            <div className="text-white -mt-[120px]">
+            <div className="text-white -mt-[120px] max-[425px]:-mt-10">
               <div className="uppercase font-bebaseNeue flex flex-col gap-[10px] max-[425px]:ml-[54px]">
                 <motion.div
                   className="flex gap-[15px]"
